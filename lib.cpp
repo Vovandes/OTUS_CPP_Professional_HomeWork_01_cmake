@@ -1,6 +1,6 @@
-#include "lib.h"
+#include "lib.hpp"
 
-#include "version.h"
+#include "version.hpp"
 
 int version() {
 	return PROJECT_VERSION_PATCH;

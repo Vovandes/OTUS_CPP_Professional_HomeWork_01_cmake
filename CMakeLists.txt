@@ -7,7 +7,7 @@ project(helloworld VERSION ${PROJECT_VERSION})
 
 option(WITH_GTEST "Whether to build Google test" ON)
 
-configure_file(version.h.in version.h)
+configure_file(version.hpp.in version.hpp)
 
 add_executable(helloworld_cli main.cpp)
 add_library(helloworld lib.cpp)
