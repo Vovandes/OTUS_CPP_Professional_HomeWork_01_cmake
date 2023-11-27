@@ -62,7 +62,7 @@ endif()
 
 if (CMAKE_CXX_COMPILER_ID MATCHES "Clang" OR
     CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
-    target_compile_options(Calculation_of_the_statical_characteristics_of_the_sequence PRIVATE 
+    target_compile_options(helloworld_cli PRIVATE 
         -g
         -Wall
         -Wextra
@@ -70,7 +70,7 @@ if (CMAKE_CXX_COMPILER_ID MATCHES "Clang" OR
         -pedantic
     )
 elseif (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
-    target_compile_options(Calculation_of_the_statical_characteristics_of_the_sequence PRIVATE
+    target_compile_options(helloworld_cli PRIVATE
         /EHsc
         /W4
         /WX
